@@ -1,0 +1,23 @@
+sno=int(input('enter sno'))
+sname=input('enter name')
+s1=int(input('s1 marks'))
+s2=int(input('s2 marks'))
+s3=int(input('s3 marks'))
+s4=int(input('s4 marks'))
+s5=int(input('s5 marks'))
+s6=int(input('s6 marks'))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35 and avg>=91:
+    print('o-grade')
+elif s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35 and avg>=81:
+    print('A-grade')
+elif s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35 and avg>=71:
+    print('B-grade')
+elif s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35 and avg>=61:
+    print('C-grade')
+elif s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35 and avg>=51:
+    print('D-grade')
+elif s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35 and avg>=35:
+    print('PASS')
+else:
