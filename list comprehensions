@@ -1,0 +1,5 @@
+numbers= [10,9,8,7,6,5,4,3,2,1]
+newlist = []
+for x in numbers:
+        newlist.append(x)
+print(newlist)
